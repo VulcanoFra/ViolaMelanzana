@@ -1,0 +1,59 @@
+#tableIngredienti{
+	visibility: hidden;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#insertChef, #sendRecipe{
+	color: white;
+	border-radius: 15px;
+}
+
+#insertChef:hover, #sendRecipe:hover {
+	color: rgba(255,255,255,0.8);
+	border-radius: 15px;
+}
+
+.ast {
+	color: #6900cc;
+}
+
+.lbl-warning{
+	background-color: #6900cc;
+}
+
+textarea {
+	resize: none;
+}
+
+#container-insert{
+	background-color: WhiteSmoke;
+}
+
+
+span{
+	background-color: #e1ecf4;
+	padding: 8px;
+}
+
+.btnRemoveCategories{
+	background-color: transparent;
+	border-color: transparent;
+	color: #437aa2;
+}
+
+.btnRemoveCategories:hover{
+	background-color: #437aa2;
+	border-color: transparent;
+	color: white;
+}
+
+#addCategory, #btnAggiungiIngrediente{
+	padding: 6px;
+	background-color: #e1ecf4;
+}

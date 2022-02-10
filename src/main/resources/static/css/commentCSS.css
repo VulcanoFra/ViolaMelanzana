@@ -1,0 +1,44 @@
+.card{
+    background-color:white;
+    width:50%;
+	margin: 30 auto;
+	box-shadow: 2px 2px 6px #6900cc;
+}
+
+.card-text{
+	 text-align:left;
+	 font-size:16px;
+	 float:left;
+}
+
+.card-header{
+	text-align:left;
+}
+
+.form-group{
+	width:50%;
+	margin-left:25%;
+}
+
+#submitComment{
+	  border-radius: 20%/40%;
+	  border: none;
+	  color: white;
+	  padding: 1%;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 150%;
+	  cursor: pointer;
+}
+
+
+#contenuto::placeholder{
+		
+	font-size:200%;	
+}
+
+#contenuto::input{
+		font-size:200%;	
+	
+}

@@ -1,0 +1,430 @@
+/*Per il popup di aggiunta di una raccolta*/
+.modal {
+  position: fixed; 
+  left: 0;
+  top: 0;
+  padding-top:10%; /* Location della box */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; /*Abilita lo scroll se serve */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+}
+
+/* Contenuto del popup */
+.modal-content {
+  position: relative;
+  margin: auto;
+  font-size: 110%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  width: 60%;
+  border: 1px solid #888;
+}
+
+.modal-header {
+  background-color: #4d0099;
+  color:white;
+  font-size:110%;
+  height:10%;
+  
+}
+
+.modal-header h2{
+	position:relative;
+	margin-top:-2px ;
+}
+
+/* Bottocino di chiusura modali*/
+.modal-header #closeModal {
+  margin-top:-5%;
+}
+
+/*Per aggiunta di una raccolta senza altre raccolte*/
+#myBtn{
+	background:transparent;
+    border:none; 
+    font-size:15px;
+}
+
+#myBtn:hover{
+	text-decoration: underline  #4d0099;
+	color: #4d0099
+}
+
+#opp{
+	text-align:center;
+	font-style:italic;
+	color:grey;
+	font-size:15px;
+}
+
+
+/* Animazioni comparsa popup */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+
+
+/* Bottocino di chiusura notifica non loggato*/
+.notification .close{
+	position:absolute;
+	left:10;
+	top:5;
+	color:black;
+}
+
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn{
+	 color: white;
+}
+
+
+#mainContainer{
+	  margin:14px auto;
+}
+
+.media-left{
+	margin:5% auto;
+}
+
+.media-right{
+	margin:16% auto;
+	margin-left:-5%;
+	font-size:110%;
+}
+
+#imgRecipe{
+	width:450px;
+	height:300px;
+}
+
+dt{
+	margin-top:0.1%;
+}
+#by{
+	font-size:10px;
+}
+.fa{
+	color: #4d0099;	
+}
+
+.likeUp{
+	float:right;
+	
+}
+
+.submitLike{
+	background:transparent;
+    border:none; 
+}
+
+.remove {
+
+    float:right;
+    margin-top:5px;
+    margin-right:5px;
+    font-size:12px;
+}
+
+#remove{
+	background:transparent;
+    border:none;
+}
+#remove:hover{
+	text-decoration:underline;
+}
+
+.shadow{
+  border:none;
+  box-shadow: 5px 6px 15px 1px #4d0099;
+  width: 80%;
+  height: 400px;
+  position: relative;
+  margin:5% auto;
+
+}
+
+#buttonBar{
+	  text-align: center;
+	  margin-top:10%;
+}
+
+#buttonBar1{
+	width:45%;	
+	margin:5% auto;
+	margin-left:25%;
+
+}
+
+#buttonType{
+	  border-radius: 20%/40%;
+	  border: none;
+	  color: white;
+	  text-decoration: none;
+	  font-size: 100%;
+	  padding:1.2%;
+	  margin:2%;
+	  background-color: #4d0099;
+}
+
+ .buttonType1{
+	  border-radius: 20%/40%;
+	  border: none;
+	  color: white;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 120%;
+	  padding:10px;
+	  background-color: #4d0099;
+	  text-align:center;
+}
+
+#imgBut{
+	color:white;
+}
+
+.fa:hover {
+  color: #4d0099;
+}
+#disabledButton {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+.heading-1{
+	font-size:300%;
+	font-weight:bold;
+	color:#4d0099;
+    margin-left:70px;
+}
+
+.titleSection{
+	font-size:250%;
+	font-style:italic;
+	margin-left:2%;
+	margin-top:8%;
+	display: inline-block;
+	border-bottom: 3px solid #4d0099;
+}
+
+
+p{
+  font-size:120%;
+  text-align:justify;
+}
+
+.ing {
+	 text-align:justify;
+	 font-size:130%;
+}
+
+.card{
+    background-color:white;
+    width:60%;
+    height:20%;
+	margin: 30 auto;
+	box-shadow: 2px 2px 6px #4d0099;
+}
+
+
+.card-header{
+	text-align:left;
+	padding-left:2%;
+    border-bottom: 1px solid #afafaf;
+	
+}
+
+.card-header img{
+	width:20%;
+	height:20%;
+	float:right;
+	margin-right:3%;
+	margin-top:-5%;
+}
+
+.card-header h1{
+	font-size:28px;
+}
+
+.card-body {
+	padding-left:2%;
+	font-size:15px;
+}
+#footer{
+	position:relative;
+	margin-top:6.8%;
+	border-top:1px solid #afafaf;
+}
+
+.form-group{
+	width:50%;
+	margin-left:25%;
+}
+
+#video{
+	margin-top: -0.5%;
+	text-align:center;
+}
+
+iframe{
+	width:720px ;
+	height:415px;
+}
+
+#videoDesc{
+	
+	text-align:center;
+	font-style:italic;
+	color: grey;
+}
+
+#submitComment{
+	  border-radius: 20%/40%;
+	  border: none;
+	  color: white;
+	  padding: 2.5%;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 18px;
+	  cursor: pointer;
+	  margin-top:3%;
+	  background-color: #4d0099;
+	  
+}
+
+span {
+    position: relative;
+}
+
+
+input[type="submit"] {
+    font-family: "Font Awesome 5 Free"; 
+}
+
+textarea{
+	resize:none;
+}
+
+#contenuto{
+		font-size:150%;
+	
+}
+
+.notification{
+  animation: slideInDown;
+  animation-duration: 1s;
+  background-color: #ffdddd !important;
+  border-left: 6px solid #f44336;
+  text-align: center; 
+  top: 220%;
+  width: 30% !important;
+  height:15% !important;
+  margin:auto; 
+ 
+
+}
+
+#buttonType:hover {
+	 background-color: #320d6f;
+}
+
+.buttonType1:hover {
+	 background-color: #320d6f;
+}
+
+#submitComment:hover {
+	 background-color: #320d6f;
+}
+
+#overlay,
+.notification {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+
+
+
+@media screen and (max-width:991px) {
+		#imgRecipe {
+			width:350px;
+			height:200px;
+			margin-top:10% ;
+			margin-left:30%;
+		}
+		
+		.media-right {
+			margin-top:-25% ;
+			margin-left:30%;
+		}
+		
+		#by{
+			margin-top:40%;
+		}
+		
+		#remove{
+			margin-top:-100%;
+		}
+		
+		#buttonBar1{
+			width:70%;
+			margin-left:16%;
+		}
+		.card-header img{
+			margin-top:-8%;
+		}
+
+} 
+
+
+
+@media screen and (max-width:616px){
+	#imgRecipe {
+			width:300px;
+			height:150px;
+			margin-top:10% ;
+			margin-left:20%;
+		}
+		
+		.media-right {
+			margin-top:-40% ;
+			margin-left:20%;
+		}
+		
+		#by{
+			margin-top:65%;
+		}
+		
+		#remove{
+			margin-top:-100%;
+		}
+		
+
+}
+

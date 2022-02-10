@@ -1,0 +1,132 @@
+.vm-navbar {
+	background-color: WhiteSmoke;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 14px;
+		
+	margin: 0;
+}
+
+.vm-input-group {
+	text-align: center;
+	float: left;
+	padding-left: 64px;
+}
+
+.vm-input-group input[type=text] {
+	border: none;
+	border-radius: 20px;
+	
+	outline: none;
+	
+	font-size: 16px;
+
+	-webkit-transition: 0.1s;
+	transition: 0.1s;
+
+	padding: 8px;
+	
+	margin-top: 5px;
+}
+
+.vm-input-group input[type=text]:focus {
+  border: 1px solid #4d0099;
+}
+
+.vm-icon {
+	background-color: inherit;
+	
+	border: none;
+	outline: none;
+
+	font-size: 22px;
+
+	padding-right: 10px 12px;
+	
+	cursor: pointer;
+}
+
+.vm-icon:hover {
+	color: #4d0099;
+}
+
+.vm-user {
+	float: right;
+}
+
+.vm-icon:focus {
+	color: #4d0099;
+}
+
+.vm-icon:active {
+	color: #4d0099;
+}
+
+
+.vm-text {
+	background-color: inherit;
+	
+	border: none;
+	outline: none;
+
+	font-size: 18px;
+	font-style: italic;
+	
+	padding: 10px 12px;
+	margin: 0;	
+}
+
+
+#logo {
+	width:210px;
+	height: 60px;
+}
+
+.dropdown-menu li {
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+	#hello {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-header {
+		width: 100%;
+	}
+	
+	.vm-input-group {
+		width: 100%;
+	}
+	
+	.vm-user {
+		position: relative;
+		display: inline-flex;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.vm-input-group {
+		float: right;
+	}
+	
+	.vm-user {
+		float: right;
+	}
+	
+	.vm-input-group select {
+		width: 120px;
+		overflow: hidden;
+	}
+}
+

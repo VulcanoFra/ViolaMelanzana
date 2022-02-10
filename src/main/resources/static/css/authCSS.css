@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+	padding-top: 4.2rem;
+	padding-bottom: 4.2rem;
+}
+
+h1,h2,h3{
+	font-family: 'Kaushan Script', cursive !important;
+}
+
+.lcont {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.scont {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.form{
+	position: relative;	
+	
+	padding: 1rem;
+	
+	
+	max-width: 30rem;
+	width: 100%;
+	
+	background-color: #fff;
+	
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 1.1rem;
+}
+
+.lform {
+	margin: auto;
+}
+
+.tx-tfm{
+	text-transform:uppercase;
+	color: white;
+}
+
+.mbtn{
+	border-radius: 20px !important;
+}
+
+.login-or {
+	position: relative;
+	
+	color: #aaa;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.hr-or {
+	height: 1px;
+	
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.span-or {
+	display: block;
+	
+	position: absolute;
+	
+	left: 50%;
+	top: -2px;
+	
+	margin-left: -25px;
+	
+	background-color: #fff;
+	
+	width: 50px;
+	
+	text-align: center;
+}
+
+.google {
+	color:#666;
+	
+	text-align:center;
+	
+	width:100%;
+	/*height:40px;*/
+
+	/*outline:none;*/
+	
+	border: 1px solid lightgrey !important;
+	border-radius: 20px !important;
+}
+
+.ast {
+	color: #6900cc;
+}
+
+.spc {
+	margin-top: 10px;
+}
